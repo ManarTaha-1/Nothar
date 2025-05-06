@@ -522,12 +522,15 @@ footer div{
         font-size: 1.5rem;
     }
     #icon {
-        font-size: 32px;
+        font-size: 30px;
     }
 }
 @media (max-width:465px){
     .sec .par{
         font-size: 18px;
+    }
+    .header .btn a {
+        font-size: 13px;
     }
 }
 
