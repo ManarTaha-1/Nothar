@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- main style sheet -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome icond -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./images/nothar.png" type="image/x-icon">
+    <title>Nothar</title>
+</head>
+<body>
+    <section class="hero">
+        <header class="header">
+            <div class="nav">
+                <i id="icon" class="fas fa-bars" onclick="showMenu()"></i>
+                <nav class="drop-down" id="dropdown">
+                    <a href="index.html">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <div class="topics"> Topics
+                        <a href="future.html">Future</a>
+                        <a href="space.html">Space</a>
+                        <a href="energy.html">Energy</a>
+                        <a href="science.html">Science</a>
+                        <a href="tech.html">Tech</a>
+                        ----------------------
+                    </div>
+                    <a href="#contactus">CONTACT US</a>
+                </nav>
+            </div>
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/nothar.png" alt="nothar logo">
+                </a>
+            </div> 
+            <div class="categories" id="topics">
+                <ul>
+                    <li><a href="future.html">Future</a></li>
+                    <li><a href="space.html">Space</a></li>
+                    <li><a href="energy.html">Energy</a></li>
+                    <li><a href="science.html">Science</a></li>
+                    <li><a href="tech.html">Tech</a></li>
+                </ul>
+            </div>
+            <div class="btn">
+                <a href="#">Sign Up</a>
+                <a href="#">Log in</a>
+            </div>
+        </header>
+        <div class="hero-text">
+            <h1>Discover Stories That Matter</h1>
+            <p>Explore thoughts-provoking articles from writers around the world</p>
+        </div>
+    </section>
+    <!-- hero section end -->
+    <section class="about" id="about">
+        <h2>About</h2>
+        <div class="who">
+            <p><b style=" color:#7e3650 ; font-size: 30px;">Nothar</b> is a knowledge platform that showcases articles in various fields. <br>
+                It was created by  <b style=" color:#7e3650 ;">Manar Taha</b> && <b style=" color:#7e3650 ;">Heba-t-Allah</b> to reach the largest possible number of people. <br> These articles explain some of the phenomena
+                occurring around us 
+                and predict what will happen in the future.</p>
+        </div>
+        <div class="row">
+            <div class="container" data-aos="flip-down" data-aos-delay="400" data-aos-duration="1000">
+                <div class="box">
+                    <img src="./images/manar.png" alt="">
+                    <span class="card-text" onclick="toggleContent(this)">
+                        <h3>Manar Taha</h3>   
+                    </span>
+                </div>
+            </div>
+            <div class="container" data-aos="flip-down" data-aos-delay="400" data-aos-duration="1000">
+                <div class="box">
+                    <img src="./images/heba.png" alt="">
+                    <span class="card-text" onclick="toggleContent(this)">
+                        <h3>Heba-t-Allah</h3>  
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <footer>
+            <div> All Rights Reserved , ©2025</div>
+        </footer>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
