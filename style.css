@@ -16,7 +16,8 @@
     --color-three: #7e3650;
 }
 ::selection{
-    background-color: var(--color-one);
+    background-color: var(--color-three);
+    color: var(--color-one);
 }
 html{
     scroll-behavior: smooth;
@@ -290,15 +291,27 @@ section .hero-text {
 
 /* about section end*/
 /* footer section start*/
-footer div{
-    font-weight: bold;
+.footer .icons i{
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 15px 5px;
+}
+.footer i:hover{
+    color: var(--color-two);
+}
+.footer {
     background-color: var(--color-three);
     border-radius: 0;
     text-align: center;
     padding: 10px;
     margin-top: 20rem;
+}
+footer div{
+    font-weight: bold;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
 }
 /* footer section end*/
 /* articles section start*/
@@ -556,6 +569,7 @@ footer div{
         font-size: 25px;
     }
 }
+
 
 
 /* articles section end*/
